@@ -1,3 +1,4 @@
+// Ativa/desativa as classes de animação do fundo e do texto associados ao ícone clicado
 function transition(type, show = true){
     switch (type) {
         case 'icon-code':
@@ -58,6 +59,7 @@ function transition(type, show = true){
     }
 }
 
+// Reverte o modal ao estado inicial, removendo todas as classes de animação ativas
 function restart(){
     const content = document.getElementById('content')
     const modal = document.getElementById('modal')
@@ -104,6 +106,7 @@ function restart(){
     }, 1000);
 }
 
+// IIFE que liga os cliques de cada ícone à abertura do modal correspondente
 (function () {
     console.log('Author: Felipe Frade de Oliveira Pereira');
     const content = document.getElementById('content')
@@ -111,6 +114,7 @@ function restart(){
     const main = document.getElementById('main')
     const close = document.getElementById('close')
 
+    // Encadeia a animação de fundo com a exibição do modal, respeitando os tempos de transição do CSS
     const button_clicked = function(button){
         content.classList.add('fade')
         setTimeout(() => {

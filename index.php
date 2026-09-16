@@ -12,21 +12,21 @@
 </head>
 <body>
     <main id="main">
-        <i class="fa-solid fa-xmark close" id="close"></i>
+        <i class="fa-solid fa-xmark close" id="close" role="button" aria-label="Fechar"></i>
 
         <section class="content" id="content">
             <div class="items">
                 <button id="icon-code" class="button-click">
-                    <i class="fa-solid fa-code" alt="Ícone de código de programação" title="Linguagens e Frameworks"></i>
+                    <i class="fa-solid fa-code" aria-label="Ícone de código de programação" title="Linguagens e Frameworks"></i>
                 </button>
                 <button id="icon-briefcase" class="button-click">
-                    <i class="fa-solid fa-briefcase" alt="Ícone de maleta de trabalho" title="Sobre meu trabalho"></i>
+                    <i class="fa-solid fa-briefcase" aria-label="Ícone de maleta de trabalho" title="Sobre meu trabalho"></i>
                 </button>
                 <button id="icon-lightbulb" class="button-click">
-                    <i class="fa-solid fa-lightbulb" alt="Ícone de lâmpada" title="Pontos fortes e fracos"></i>
+                    <i class="fa-solid fa-lightbulb" aria-label="Ícone de lâmpada" title="Pontos fortes e fracos"></i>
                 </button>
                 <button id="icon-clock" class="button-click">
-                    <i class="fa-solid fa-clock-rotate-left" alt="Ícone de histórico" title="Histórico"></i>
+                    <i class="fa-solid fa-clock-rotate-left" aria-label="Ícone de histórico" title="Histórico"></i>
                 </button>
             </div>
             <div class="image">
@@ -116,7 +116,7 @@
                     </ul>
                 </div>
                 <div class="parts part-2">
-                    <i class="fa-solid fa-lightbulb" alt="Ícone de lâmpada" title="Pontos fortes e fracos"></i>
+                    <i class="fa-solid fa-lightbulb" aria-label="Ícone de lâmpada" title="Pontos fortes e fracos"></i>
                 </div>
                 <div class="parts part-3">
                     <h1>Pontos fracos</h1>
@@ -140,7 +140,7 @@
                 </div>
                 <div class="parts part-2">
                     <span>
-                        <i class="fa-solid fa-clock-rotate-left" alt="Ícone de histórico" title="Histórico"></i>
+                        <i class="fa-solid fa-clock-rotate-left" aria-label="Ícone de histórico" title="Histórico"></i>
                     </span>
                 </div>
                 <div class="parts part-3">
@@ -153,22 +153,22 @@
         <div class="bg">
             <div class="left" id="left">
                 <div>
-                    <i class="fa-solid fa-code" alt="Ícone de código de programação" title="Linguagens e Frameworks"></i>
+                    <i class="fa-solid fa-code" aria-label="Ícone de código de programação" title="Linguagens e Frameworks"></i>
                 </div>
             </div>
             <div class="right" id="right">
                 <div>
-                    <i class="fa-solid fa-code" alt="Ícone de código de programação" title="Linguagens e Frameworks"></i>
+                    <i class="fa-solid fa-code" aria-label="Ícone de código de programação" title="Linguagens e Frameworks"></i>
                 </div>
             </div>
             <div class="top" id="top">
                 <div>
-                    <i class="fa-solid fa-briefcase" alt="Ícone de maleta de trabalho" title="Sobre meu trabalho"></i>
+                    <i class="fa-solid fa-briefcase" aria-label="Ícone de maleta de trabalho" title="Sobre meu trabalho"></i>
                 </div>
             </div>
             <div class="bottom" id="bottom">
                 <div>
-                    <i class="fa-solid fa-briefcase" alt="Ícone de maleta de trabalho" title="Sobre meu trabalho"></i>
+                    <i class="fa-solid fa-briefcase" aria-label="Ícone de maleta de trabalho" title="Sobre meu trabalho"></i>
                 </div>
             </div>
             <div class="center" id="center"></div>
